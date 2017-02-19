@@ -75,6 +75,11 @@ class ServerlessPlugin {
             });
         }
 
+        if (exports.length == 0) {
+            this.serverless.cli.log(`No keys were found to export for: ${this.options.keys}`);
+            return;
+        }
+
         exports.forEach((entry) => {
             let type = entry.type;
             switch (type) {
