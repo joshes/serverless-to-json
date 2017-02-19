@@ -1,6 +1,6 @@
 {
   "name": "serverless-to-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Exports a serverless configuration to Json on the terminal.",
   "main": "index.js",
   "scripts": {
